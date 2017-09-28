@@ -1,7 +1,9 @@
 // ==UserScript==
 // @name         Steam Card Exchange inventory tools
-// @namespace    http://tampermonkey.net/
-// @version      0.9
+// @namespace    https://github.com/Puffycheeses/SteeamCardExchangeTools
+// @downloadURL  https://github.com/Puffycheeses/SteeamCardExchangeTools/raw/master/Steam%20Card%20Exchange%20tools.user.js
+// @updateURL    https://github.com/Puffycheeses/SteeamCardExchangeTools/raw/master/Steam%20Card%20Exchange%20tools.user.js
+// @version      1.0
 // @description  Small tools to help improve the inventory search
 // @author       Puffycheeses
 // @match        *://www.steamcardexchange.net/index.php?inventory

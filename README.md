@@ -1,5 +1,5 @@
 # Steam Card Exchange Tools
-Adds a more advanced search and highlighting
+Adds a more advanced search and highlighting, Its not the best code but It does improve the time it takes to find cards
 
 [Click to install](https://github.com/Puffycheeses/SteeamCardExchangeTools/raw/master/Steam%20Card%20Exchange%20tools.user.js) - (Requires Tampermonkey )
 
@@ -23,7 +23,3 @@ This script makes searching the bots inventory easier and more efficent. I am as
 10. Wait for the cards to come through!
 
 I recomend setting value to 6 and set to 5 so it only costs 30 credits to get a full set.
-
-# Support
-
-I made this for free but if you use it alot and want to support me you can [Send trading cards here](https://steamcommunity.com/tradeoffer/new/?partner=128567047&token=7lJ-dtgo)

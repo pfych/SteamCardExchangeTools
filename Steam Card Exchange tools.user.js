@@ -10,8 +10,10 @@
 // @grant        none
 // ==/UserScript==
 $('body').append('<style>#settingsbox {background-color:#18191B;height:300px;width:200px;position:fixed;top:41px;left:0px;margin:0px;}</style>');
-$('body').append('<div id="settingsbox"><center><br>Card value<input type="number" id="cardVal"><br><br>Cards in set<input type="number" id="cardSet"><br><br>Best matches appear in green, Average matches appear in orange, Set matches appear in pink<br><br><br>Perfect Matches: <span id="greenmatch">0</span><br></center></div>');
-window.setInterval(function(){
+$('body').append('<div id="settingsbox"><center><br>Card value<input type="number" id="cardVal"><br><br>Cards in set<input type="number" id="cardSet"><br><br>Best matches appear in green, Average matches appear in orange, Set matches appear in pink<br><br><br>Perfect Matches: <span id="greenmatch">0</span><br>Average Matches: <span id="orangmatch">0</span><br><br><button class="dataTables_paginate">Refresh</button></center></div>');
+$('.dataTables_paginate').click(function(){
+    $('#greenmatch').html("0");
+    $('#orangmatch').html("0");
     $('#greenmatch').html(0);
     var set = $('#cardSet').val();
     var value = $('#cardVal').val();
@@ -28,6 +30,7 @@ window.setInterval(function(){
             if(price == value){
                 $(row).parent().removeClass("odd");
                 $(row).parent().css('background-color','#ffa500');
+                $('#orangmatch').html(parseInt($('#orangmatch').html(), 10)+1)
             }
         }
         if($(row).is(':contains("('+set+' of '+set+' Cards)")')){
@@ -42,4 +45,4 @@ window.setInterval(function(){
         }
     });
     console.log(refresh);
-}, 250);
+});

@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         SCET
 // @namespace    https://github.com/Puffycheeses/SteeamCardExchangeTools
-// @downloadURL  https://github.com/Puffycheeses/SteeamCardExchangeTools/raw/master/Steam%20Card%20Exchange%20tools.user.js
-// @updateURL    https://github.com/Puffycheeses/SteeamCardExchangeTools/raw/master/Steam%20Card%20Exchange%20tools.user.js
+// @downloadURL  https://github.com/Puffycheeses/SteamCardExchangeTools/raw/master/SCET.user.js
+// @updateURL    https://github.com/Puffycheeses/SteamCardExchangeTools/raw/master/SCET.user.js
 // @version      2.0
 // @description  Small tools to help improve the inventory search
 // @author       Puffycheeses
